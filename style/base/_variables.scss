@@ -1,0 +1,27 @@
+//Paletas de colores
+$bkg-main:   #ffecd1ab;                     //rgba(245, 245, 220, 0.514);
+$color-Secondary: rgba(0, 0, 0, 0.596);
+$color-hero: rgb(255, 255, 255);
+$border-caja: 1px solid rgb(0, 0, 0);
+
+//texto
+$font-boby: 'Roboto', sans-serif;
+$font-hero: 'Macondo', cursive;
+
+//lista
+$texts:
+    "h1"    4rem        500     1.6,
+    "h2"    3rem        300     1.6,
+    "h3"    1.8rem      600     1.6,
+    "p"     1.2rem        300;
+
+//map    
+$breakpoints: (
+    sm:480px,
+    md:768px,
+    lg:1024px);    
+
+
+
+
+

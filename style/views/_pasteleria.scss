@@ -1,0 +1,65 @@
+.pasteleria {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-areas:
+        "tituloP tituloP tituloP"
+        "card1 card2 card3"
+        "card4 card5 card6";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    justify-items: center;
+}
+.text-h1 {
+    grid-area: tituloP;
+}
+.card1 {
+    grid-area: card1;
+}
+.card2 {
+    grid-area: card2;
+}
+.card3 {
+    grid-area: card3;
+}
+.card4 {
+    grid-area: card4;
+}
+.card5 {
+    grid-area: card5;
+}
+.card6 {
+    grid-area: card6;
+}
+.cardPanaderia {
+    width: 60%;
+    padding-bottom: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.47);
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+    img {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+    h3 {
+        padding: 10px;
+        justify-content: center;
+    }
+    button {
+        padding-bottom:  10px;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}

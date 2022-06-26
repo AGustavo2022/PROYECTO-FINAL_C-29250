@@ -1,0 +1,16 @@
+
+.contacto {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-Secondary;
+    .formulario {
+        width: 50%;
+        text-align: center;
+        .text-h1 {
+            padding-bottom: 25px;
+            font-size: 3em;
+        }
+    }
+}
