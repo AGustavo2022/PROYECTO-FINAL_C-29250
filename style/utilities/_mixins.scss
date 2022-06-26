@@ -1,0 +1,5 @@
+@import "../base/variables";
+
+@mixin lado ($justify) {
+    justify-self:$justify;   
+}

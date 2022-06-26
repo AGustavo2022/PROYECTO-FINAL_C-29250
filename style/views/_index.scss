@@ -1,5 +1,8 @@
+@import "../base/general";
 @import "../utilities/utilities";
 @import "../base/variables";
+@import "../utilities/mixins";
+
 
 .hero {
     max-width: auto;
@@ -13,7 +16,7 @@
     background-position: center center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
     color: $color-hero;
     font-family: $font-hero;
@@ -57,9 +60,7 @@
     grid-area: articulo3;
     @extend .articulos;
 }
-@mixin lado ($justify) {
-    justify-self:$justify;   
-}
+
 .imgP {
     width: 100%;
 }
