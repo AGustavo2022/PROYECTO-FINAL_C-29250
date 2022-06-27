@@ -14,10 +14,9 @@ body {
     grid-template-areas:
         "header"
         "main"
-        "banner"
         "footer";
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
    
 }
 

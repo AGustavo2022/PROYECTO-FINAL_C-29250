@@ -19,10 +19,10 @@
     justify-content: center;
     align-items:center;
     color: $color-hero;
-    font-family: $font-hero;
+    font-family: $font-hero;   
 }
 .sectionPrincipal {
-    padding-bottom: 80px;
+    margin-bottom: 40px;
     display: grid;
     grid-template-areas:
     "textH2 textH2"
@@ -32,6 +32,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr 1fr 1fr;
     justify-items: center;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 20px;
 }
 .textSecundario {
     grid-area: textH2;
@@ -68,7 +70,8 @@
 .img1 {
     grid-area: img1;
     @extend .imgP;
-    @include lado(start)
+    @include lado(start);
+    border-radius: 0 20px 0 0;
 }
 .img2 {
     grid-area: img2;
@@ -79,11 +82,12 @@
     grid-area: img3;
     @extend .imgP;
     @include lado(start);
+    border-radius: 0 0 20px 0;
 }
 .parrafo {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
     .decoracion {
-        text-decoration-line: underline;
+        font-weight: bold;
     }
 }

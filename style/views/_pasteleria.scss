@@ -1,6 +1,6 @@
 .pasteleria {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-areas:
         "tituloP tituloP tituloP"
@@ -34,7 +34,7 @@
     grid-area: card6;
 }
 .cardPanaderia {
-    width: 60%;
+    width: 70%;
     padding-bottom: 15px;
     text-align: center;
     display: flex;
