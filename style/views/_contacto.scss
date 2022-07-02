@@ -1,7 +1,8 @@
 
 .contacto {
-    height: 100vh;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: $color-Secondary;
@@ -9,8 +10,28 @@
         width: 50%;
         text-align: center;
         .text-h1 {
-            padding-bottom: 25px;
+            padding: 30px 0 20px 0;
             font-size: 3em;
+        }
+        h3 {
+            padding-bottom: 25px;
+        }
+    }
+    .redesSociales {
+        padding: 40px 0 40px 0;
+        text-align: center;
+        .iconosSociales {  
+            padding: 20px;
+            a {
+                padding-left: 30px;
+            }
+            img {
+                width: 50px;
+                height: 50px;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
         }
     }
 }

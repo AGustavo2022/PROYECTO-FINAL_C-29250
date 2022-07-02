@@ -68,6 +68,7 @@ footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: footer;
+  height: 100%;
 }
 
 footer p {
@@ -405,20 +406,24 @@ iframe {
           justify-content: center;
 }
 
-.cardPanaderia button {
+.cardPanaderia a {
   padding-bottom: 10px;
 }
 
-.cardPanaderia button:hover {
+.cardPanaderia a:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
 .contacto {
-  height: 100vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -434,8 +439,35 @@ iframe {
 }
 
 .contacto .formulario .text-h1 {
-  padding-bottom: 25px;
+  padding: 30px 0 20px 0;
   font-size: 3em;
+}
+
+.contacto .formulario h3 {
+  padding-bottom: 25px;
+}
+
+.contacto .redesSociales {
+  padding: 40px 0 40px 0;
+  text-align: center;
+}
+
+.contacto .redesSociales .iconosSociales {
+  padding: 20px;
+}
+
+.contacto .redesSociales .iconosSociales a {
+  padding-left: 30px;
+}
+
+.contacto .redesSociales .iconosSociales img {
+  width: 50px;
+  height: 50px;
+}
+
+.contacto .redesSociales .iconosSociales img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 @media screen and (max-width: 800px) {
@@ -536,6 +568,10 @@ iframe {
   }
   .contacto .formulario {
     width: 75%;
+  }
+  .contacto img:hover {
+    -webkit-transform: none;
+            transform: none;
   }
 }
 

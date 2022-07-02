@@ -84,6 +84,11 @@
         .formulario {
             width: 75%;
         }
+        img {
+            &:hover {
+                transform: none;
+            }
+        }
     }
 }
 
