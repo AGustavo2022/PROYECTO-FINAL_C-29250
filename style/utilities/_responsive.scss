@@ -5,11 +5,11 @@
 
 @media screen and (max-width: 800px){
     .text-h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
         text-align: center;
       }     
       .text-h2 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
       }     
       .text-h3 {
         font-size: 1.2rem;
@@ -94,17 +94,20 @@
 
 @media screen and (max-width: 480px){
     .text-h1 {
-        font-size: 2.3rem;
+        font-size: 2.4rem;
         text-align: center;
     }     
     .text-h2 {
         font-size: 2rem;
+        text-align: center;
     }     
     .text-h3 {
         font-size: 1.5rem;
+        text-align: center;
     }    
     .text-p {
         font-size: 1rem;
+
     }
     .sectionPrincipal {
         display: grid;
